@@ -3,12 +3,12 @@ Code Book
 Here you'll find some hints on the data.
 
 First there is the 'subject activity':
-◦ WALKING 
-◦ WALKING_UPSTAIRS 
-◦ WALKING_DOWNSTAIRS 
-◦ SITTING 
-◦ STANDING 
-◦ LAYING 
+  WALKING 
+  WALKING_UPSTAIRS 
+  WALKING_DOWNSTAIRS 
+  SITTING 
+  STANDING 
+  LAYING 
 
 Next to that we have a number of measurements in the X, Y and Z directions.
 For these measurements we'll have the mean and the standard deviation
@@ -16,8 +16,9 @@ For these measurements we'll have the mean and the standard deviation
 
 The measurements are classified in two domains:
 
-•Time-domain signals (variables prefixed by  timeDomain ), resulting from the capture of accelerometer and gyroscope raw signals.
-•Frequency-domain signals (variables prefixed by  frequencyDomain ), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
+1. Time-domain signals (variables prefixed by  timeDomain ), resulting from the capture of accelerometer and gyroscope raw signals.
+
+2. Frequency-domain signals (variables prefixed by  frequencyDomain ), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
 
 Time-domain signals
 ◦ timeDomainBodyAccelerometerMeanX 
